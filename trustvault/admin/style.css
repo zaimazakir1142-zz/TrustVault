@@ -1,0 +1,72 @@
+body{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+.profile-top{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.avatar{
+    width:80px;
+    height:80px;
+    background:#2b7cff;
+    color:white;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:35px;
+    font-weight:bold;
+}
+
+.balance-box{
+    margin-top:30px;
+    background:#2b7cff;
+    color:white;
+    padding:25px;
+    border-radius:15px;
+}
+
+.btn-group{
+    margin-top:25px;
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.btn-group a{
+    text-decoration:none;
+    background:#111827;
+    color:white;
+    padding:12px 22px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.btn-group a:hover{
+    background:#2563eb;
+}
+
+.logout{
+    background:#dc2626 !important;
+}
+
+.transaction-card{
+    margin-top:30px;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+.transaction{
+    display:flex;
+    justify-content:space-between;
+    padding:15px;
+    border-bottom:1px solid #ddd;
+}
